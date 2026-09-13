@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">KasNota</string>
+
+    <!-- umum -->
+    <string name="action_back">Kembali</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_generate">Buat</string>
+    <string name="label_umum">Umum</string>
+    <string name="undo_warning">Tindakan ini tidak bisa dibatalkan.</string>
+    <string name="pick_date">Pilih tanggal</string>
+    <string name="clear_filter">Hapus filter</string>
+    <string name="clear_search">Hapus pencarian</string>
+
+    <!-- daftar buku -->
+    <string name="title_cashbooks">Buku Keuangan</string>
+    <string name="empty_cashbooks">Belum ada buku.</string>
+    <string name="add_cashbook">Tambah Buku</string>
+
+    <!-- tab -->
+    <string name="tab_home">Beranda</string>
+    <string name="tab_transactions">Transaksi</string>
+    <string name="tab_groups">Kelompok</string>
+    <string name="tab_settings">Pengaturan</string>
+
+    <!-- pengaturan -->
+    <string name="your_cashbooks">Buku Anda</string>
+    <string name="cashbook_open">Sedang dibuka</string>
+    <string name="import_backup">Impor cadangan</string>
+    <string name="export_backup">Ekspor cadangan</string>
+    <string name="download_report">Unduh laporan</string>
+    <string name="rename_cashbook">Ubah nama</string>
+    <string name="delete_cashbook">Hapus buku</string>
+    <string name="delete_cashbook_q">Hapus buku ini?</string>
+    <string name="delete_cashbook_warning">Semua transaksi, kelompok, dan bukti di buku ini ikut terhapus permanen.</string>
+    <string name="cashbook_name_label">Nama buku</string>
+    <string name="cashbook_name_required">Nama buku wajib diisi.</string>
+    <string name="new_cashbook_title">Buku Baru</string>
+    <string name="backup_saved">Cadangan disimpan</string>
+    <string name="backup_failed">Gagal membuat cadangan</string>
+    <string name="import_done">Buku berhasil diimpor</string>
+    <string name="import_failed">File cadangan tidak valid</string>
+    <string name="imported_suffix">(impor)</string>
+
+    <!-- unduh laporan -->
+    <string name="report_start_date">Tanggal awal</string>
+    <string name="report_end_date">Tanggal akhir</string>
+    <string name="report_format">Format</string>
+    <string name="report_range_invalid">Tanggal akhir harus sama atau setelah tanggal awal.</string>
+    <string name="report_empty">Tidak ada transaksi pada rentang ini.</string>
+    <string name="report_failed">Gagal membuat laporan</string>
+    <string name="report_saved">Laporan disimpan</string>
+    <string name="report_title_table">Laporan Keuangan</string>
+    <string name="report_col_date">Tanggal</string>
+    <string name="report_col_activity">Kegiatan</string>
+    <string name="report_col_type">Jenis</string>
+    <string name="report_col_desc">Deskripsi</string>
+    <string name="report_col_in">Masuk</string>
+    <string name="report_col_out">Keluar</string>
+    <string name="report_col_balance">Saldo</string>
+    <string name="report_total">Total</string>
+    <string name="report_period">Periode</string>
+    <string name="report_attachments">Lampiran Bukti</string>
+    <string name="report_page">Halaman %1$d / %2$d</string>
+
+    <!-- beranda -->
+    <string name="current_balance">Saldo Saat Ini</string>
+    <string name="add_transaction">Tambah Transaksi</string>
+    <string name="summary">Ringkasan</string>
+    <string name="summary_hint">Ketuk untuk ganti periode diagram di bawah</string>
+    <string name="period_7d">7 Hari Terakhir</string>
+    <string name="period_30d">30 Hari Terakhir</string>
+    <string name="period_12m">12 Bulan Terakhir</string>
+    <string name="amount_in">Masuk</string>
+    <string name="amount_out">Keluar</string>
+    <string name="distribution_by_type">Distribusi per Jenis</string>
+    <string name="transaction_count">Jumlah Transaksi</string>
+    <string name="chart_empty">Belum ada transaksi untuk periode ini.</string>
+
+    <!-- daftar transaksi -->
+    <string name="date_from">Dari tanggal</string>
+    <string name="date_to">Sampai tanggal</string>
+    <string name="search_transactions">Cari transaksi</string>
+    <string name="search_transactions_hint">Jenis, kegiatan, deskripsi, atau jumlah</string>
+    <string name="count_transactions">%d transaksi</string>
+    <string name="count_transactions_short">%d transaksi</string>
+
+    <!-- pagination -->
+    <string name="page_first">Halaman pertama</string>
+    <string name="page_prev">Halaman sebelumnya</string>
+    <string name="page_next">Halaman berikutnya</string>
+    <string name="page_last">Halaman terakhir</string>
+    <string name="page_goto">Ke Halaman</string>
+    <string name="page_number_label">Nomor halaman (1 - %d)</string>
+    <string name="page_out_of_range">Halaman harus di antara 1 dan %d.</string>
+
+    <!-- form transaksi -->
+    <string name="title_add_transaction">Tambah Transaksi</string>
+    <string name="title_edit_transaction">Edit Transaksi</string>
+    <string name="field_date">Tanggal</string>
+    <string name="field_type">Tipe</string>
+    <string name="field_activity_optional">Kegiatan (opsional)</string>
+    <string name="field_type_optional">Jenis (opsional)</string>
+    <string name="field_description">Deskripsi</string>
+    <string name="field_amount">Jumlah</string>
+    <string name="receipts">Bukti Transaksi</string>
+    <string name="err_date_required">Tanggal wajib diisi.</string>
+    <string name="err_date_future">Tanggal tidak boleh di masa depan.</string>
+    <string name="err_description_required">Deskripsi wajib diisi.</string>
+    <string name="err_amount_min">Jumlah harus lebih dari 0.</string>
+    <string name="delete_transaction_q">Hapus transaksi?</string>
+    <string name="delete_receipt_q">Hapus bukti ini?</string>
+    <string name="delete_receipt_warning">Foto akan dihapus permanen dan tidak bisa dikembalikan.</string>
+    <string name="take_receipt_photo">Ambil foto bukti</string>
+    <string name="pick_receipt_gallery">Pilih bukti dari galeri</string>
+    <string name="remove_receipt">Hapus bukti</string>
+    <string name="receipt_cd">Bukti transaksi</string>
+
+    <!-- kelompok -->
+    <string name="search_groups">Cari kelompok</string>
+    <string name="activity_name">Nama kegiatan</string>
+    <string name="count_groups">%d kelompok</string>
+    <string name="empty_groups">Belum ada kelompok.</string>
+    <string name="add_group">Tambah Kelompok</string>
+    <string name="title_add_group">Tambah Kelompok</string>
+    <string name="group_hint">Kelompok = wadah transaksi berulang (mis. iuran per siswa). Anggota ditambahkan satu per satu.</string>
+    <string name="field_activity">Kegiatan</string>
+    <string name="err_activity_required">Kegiatan wajib diisi.</string>
+    <string name="create_group">Buat Kelompok</string>
+    <string name="group_default_title">Kelompok</string>
+    <string name="search_members">Cari anggota</string>
+    <string name="search_members_hint">Jenis, deskripsi, atau jumlah</string>
+    <string name="count_members">%d anggota</string>
+    <string name="empty_members">Belum ada anggota.</string>
+    <string name="no_matching_members">Tidak ada anggota yang cocok.</string>
+    <string name="add_member">Tambah Anggota</string>
+    <string name="title_add_member">Tambah Anggota</string>
+    <string name="title_edit_member">Edit Anggota</string>
+    <string name="delete_group">Hapus Kelompok</string>
+    <string name="delete_group_q">Hapus kelompok ini?</string>
+    <string name="delete_group_warning">Semua anggota &amp; buktinya ikut terhapus. Tindakan ini tidak bisa dibatalkan.</string>
+    <string name="delete_member_q">Hapus anggota ini?</string>
+    <string name="receipts_max">Bukti (maks %d foto)</string>
+    <string name="group_members_count">%d transaksi</string>
+</resources>

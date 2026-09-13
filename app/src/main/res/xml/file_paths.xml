@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="bukti_tmp" path="bukti_tmp/" />
+    <cache-path name="exports" path="exports/" />
+</paths>

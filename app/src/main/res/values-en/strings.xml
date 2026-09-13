@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">KasNota</string>
+
+    <!-- common -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_generate">Generate</string>
+    <string name="label_umum">General</string>
+    <string name="undo_warning">This action cannot be undone.</string>
+    <string name="pick_date">Pick date</string>
+    <string name="clear_filter">Clear filter</string>
+    <string name="clear_search">Clear search</string>
+
+    <!-- cashbook list -->
+    <string name="title_cashbooks">Cashbooks</string>
+    <string name="empty_cashbooks">No cashbook yet.</string>
+    <string name="add_cashbook">Add cashbook</string>
+
+    <!-- tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_transactions">Transactions</string>
+    <string name="tab_groups">Groups</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- settings -->
+    <string name="your_cashbooks">Your cashbooks</string>
+    <string name="cashbook_open">Open</string>
+    <string name="import_backup">Import backup</string>
+    <string name="export_backup">Export backup</string>
+    <string name="download_report">Download report</string>
+    <string name="rename_cashbook">Rename</string>
+    <string name="delete_cashbook">Delete cashbook</string>
+    <string name="delete_cashbook_q">Delete this cashbook?</string>
+    <string name="delete_cashbook_warning">All transactions, groups and receipts in this cashbook will be permanently deleted.</string>
+    <string name="cashbook_name_label">Cashbook name</string>
+    <string name="cashbook_name_required">Cashbook name is required.</string>
+    <string name="new_cashbook_title">New Cashbook</string>
+    <string name="backup_saved">Backup saved</string>
+    <string name="backup_failed">Failed to create backup</string>
+    <string name="import_done">Cashbook imported</string>
+    <string name="import_failed">Invalid backup file</string>
+    <string name="imported_suffix">(imported)</string>
+
+    <!-- download report -->
+    <string name="report_start_date">Start date</string>
+    <string name="report_end_date">End date</string>
+    <string name="report_format">Format</string>
+    <string name="report_range_invalid">End date must be on or after the start date.</string>
+    <string name="report_empty">No transactions in this range.</string>
+    <string name="report_failed">Failed to generate report</string>
+    <string name="report_saved">Report saved</string>
+    <string name="report_title_table">Financial Report</string>
+    <string name="report_col_date">Date</string>
+    <string name="report_col_activity">Activity</string>
+    <string name="report_col_type">Type</string>
+    <string name="report_col_desc">Description</string>
+    <string name="report_col_in">In</string>
+    <string name="report_col_out">Out</string>
+    <string name="report_col_balance">Balance</string>
+    <string name="report_total">Total</string>
+    <string name="report_period">Period</string>
+    <string name="report_attachments">Receipt Attachments</string>
+    <string name="report_page">Page %1$d / %2$d</string>
+
+    <!-- home -->
+    <string name="current_balance">Current Balance</string>
+    <string name="add_transaction">Add transaction</string>
+    <string name="summary">Summary</string>
+    <string name="summary_hint">Tap to change the chart period below</string>
+    <string name="period_7d">Last 7 days</string>
+    <string name="period_30d">Last 30 days</string>
+    <string name="period_12m">Last 12 months</string>
+    <string name="amount_in">In</string>
+    <string name="amount_out">Out</string>
+    <string name="distribution_by_type">Distribution by Type</string>
+    <string name="transaction_count">Transaction Count</string>
+    <string name="chart_empty">No transactions for this period.</string>
+
+    <!-- transaction list -->
+    <string name="date_from">From date</string>
+    <string name="date_to">To date</string>
+    <string name="search_transactions">Search transactions</string>
+    <string name="search_transactions_hint">Type, activity, description or amount</string>
+    <string name="count_transactions">%d transactions</string>
+    <string name="count_transactions_short">%d transactions</string>
+
+    <!-- pagination -->
+    <string name="page_first">First page</string>
+    <string name="page_prev">Previous page</string>
+    <string name="page_next">Next page</string>
+    <string name="page_last">Last page</string>
+    <string name="page_goto">Go to page</string>
+    <string name="page_number_label">Page number (1 - %d)</string>
+    <string name="page_out_of_range">Page must be between 1 and %d.</string>
+
+    <!-- transaction form -->
+    <string name="title_add_transaction">Add Transaction</string>
+    <string name="title_edit_transaction">Edit Transaction</string>
+    <string name="field_date">Date</string>
+    <string name="field_type">Type</string>
+    <string name="field_activity_optional">Activity (optional)</string>
+    <string name="field_type_optional">Type (optional)</string>
+    <string name="field_description">Description</string>
+    <string name="field_amount">Amount</string>
+    <string name="receipts">Receipts</string>
+    <string name="err_date_required">Date is required.</string>
+    <string name="err_date_future">Date cannot be in the future.</string>
+    <string name="err_description_required">Description is required.</string>
+    <string name="err_amount_min">Amount must be greater than 0.</string>
+    <string name="delete_transaction_q">Delete transaction?</string>
+    <string name="delete_receipt_q">Delete this receipt?</string>
+    <string name="delete_receipt_warning">The photo will be permanently deleted and cannot be recovered.</string>
+    <string name="take_receipt_photo">Take a receipt photo</string>
+    <string name="pick_receipt_gallery">Pick a receipt from gallery</string>
+    <string name="remove_receipt">Remove receipt</string>
+    <string name="receipt_cd">Transaction receipt</string>
+
+    <!-- groups -->
+    <string name="search_groups">Search groups</string>
+    <string name="activity_name">Activity name</string>
+    <string name="count_groups">%d groups</string>
+    <string name="empty_groups">No groups yet.</string>
+    <string name="add_group">Add group</string>
+    <string name="title_add_group">Add Group</string>
+    <string name="group_hint">A group holds recurring transactions (e.g. per-student dues). Members are added one by one.</string>
+    <string name="field_activity">Activity</string>
+    <string name="err_activity_required">Activity is required.</string>
+    <string name="create_group">Create group</string>
+    <string name="group_default_title">Group</string>
+    <string name="search_members">Search members</string>
+    <string name="search_members_hint">Type, description or amount</string>
+    <string name="count_members">%d members</string>
+    <string name="empty_members">No members yet.</string>
+    <string name="no_matching_members">No matching members.</string>
+    <string name="add_member">Add member</string>
+    <string name="title_add_member">Add Member</string>
+    <string name="title_edit_member">Edit Member</string>
+    <string name="delete_group">Delete group</string>
+    <string name="delete_group_q">Delete this group?</string>
+    <string name="delete_group_warning">All members and their receipts will be deleted. This cannot be undone.</string>
+    <string name="delete_member_q">Delete this member?</string>
+    <string name="receipts_max">Receipts (max %d photos)</string>
+    <string name="group_members_count">%d transactions</string>
+</resources>
